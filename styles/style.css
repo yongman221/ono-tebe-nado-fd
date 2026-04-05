@@ -135,7 +135,7 @@
 .aligned-text-right {
     text-align: end;
     margin-top: 17px;
-    padding-left: 614px;   
+    margin-right: -0.3em;   
 }
 
 .cover__description {
@@ -149,9 +149,11 @@
 
 .cover__description-title {
     word-spacing: 18.5px;
+    text-transform: uppercase;
 }
 
 .cover__description-button {
+    text-transform: uppercase;
     background: transparent;
     color: white;
     border: 1px white solid;
@@ -175,8 +177,9 @@
 .lots__card-list {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
     flex-direction: row;
-    justify-content: space-between;
     margin-top: 27px;
     margin-bottom: 30px;
 }
@@ -189,6 +192,10 @@
 .card__link,
 .card {
     height: 100%;
+}
+
+.card__link {
+    text-decoration: none;
 }
 
 .card {
